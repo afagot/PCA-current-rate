@@ -22,5 +22,6 @@ The algorithm produces multiple plots:
 
 * a *[Scree plot](https://en.wikipedia.org/wiki/Scree_plot)* showing the explained variance for all of the principal components
 * a series of 4D plots, one for each component of the data phase space, in which the three main dimensions are the three first dimensions of the principal components phase space and the forth is the value held by the component in the data phase space.
+* a *Score plot* which is a decomposition of each component of the data phase space into its eigenvalues along the principal component space eigen vectors.
 
 The algorithm also produces a latex format table with the scalar products of the different principal components with respect to the others (this was to put into an article).
